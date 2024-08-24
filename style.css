@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.box1{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 65vh;
+    background-color: red;
+    position: relative;
+}
+
+.box2{
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+}
+
+.left{
+    position: absolute;
+    left: 0;
+}
+
+.right{
+    position: absolute;
+    right: 0;
+}
+
